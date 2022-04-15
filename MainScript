@@ -3,7 +3,7 @@ local PlaceId = game.PlaceId
 if PlaceId == 6612749452 then
   loadstring(game:HttpGet('https://raw.githubusercontent.com/God2illaz/Script/main/MinebloxSimulator'))()
  else
-	game.Players.LocalPlayer:kick("ไม่มีสคริปเกมนี้คร้าบบ")
+	game.Players.LocalPlayer:kick("Not Have This Game Script!")
 	wait(1)
 	game:Shutdown()
 end
