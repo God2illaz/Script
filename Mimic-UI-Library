@@ -161,7 +161,7 @@ function create:Win()
 
 
     game:GetService("UserInputService").InputBegan:Connect(function(input)
-        if input.KeyCode == Enum.KeyCode.F then 
+        if input.KeyCode == Enum.KeyCode.Q then 
             if library.toggledui == false then
                 library.toggledui = true  
                 tween:Create(Main,TweenInfo.new(0.4,Enum.EasingStyle.Back,Enum.EasingDirection.In),{Size = UDim2.new(0, 0, 0, 0)}):Play()
